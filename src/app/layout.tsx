@@ -36,13 +36,13 @@ export default function RootLayout({
                 Next.js Blog
               </Link>
               <div className="flex gap-6">
-                <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/" className="text-gray-600 hover:text-blue-500 transition-colors">
                   Home
                 </Link>
-                <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/about" className="text-gray-600 hover:text-blue-500 transition-colors">
                   About
                 </Link>
-                <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition-colors">
+                <Link href="/blog" className="text-gray-600 hover:text-blue-500 transition-colors">
                   Blog
                 </Link>
               </div>

@@ -22,7 +22,7 @@ export default function Home() {
           A comprehensive blog application showcasing CSR, SSR, SSG, and ISR rendering techniques
         </p>
         <div className="bg-white rounded-lg shadow-lg p-6 mb-8 inline-block">
-          <p className="text-sm text-gray-500 mb-2">Live Clock (Client-Side Rendering)</p>
+          <p className="text-xl text-gray-500 mb-2">Live Clock</p>
           <p className="text-3xl font-mono font-bold text-blue-600">{time}</p>
         </div>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
