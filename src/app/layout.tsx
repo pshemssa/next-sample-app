@@ -29,18 +29,33 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <header>
-        <nav className="flex gap-4 p-4 bg-gray-200 text-black">
-          <Link href="/">Home</Link>
-          <Link href="/about">About</Link>
-           <Link href="/blog">Blog</Link>
-        </nav>
+        <header className="bg-white shadow-sm border-b">
+          <nav className="container mx-auto px-4 py-4">
+            <div className="flex items-center justify-between">
+              <Link href="/" className="text-xl font-bold text-gray-900">
+                Next.js Blog
+              </Link>
+              <div className="flex gap-6">
+                <Link href="/" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  Home
+                </Link>
+                <Link href="/about" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  About
+                </Link>
+                <Link href="/blog" className="text-gray-600 hover:text-gray-900 transition-colors">
+                  Blog
+                </Link>
+              </div>
+            </div>
+          </nav>
         </header>
-        <main>
-        {children}
+        <main className="min-h-screen ">
+          {children}
         </main>
-        <footer className="flex justify-center items-center p-4 bg-gray-200 text-black bottom-0 fixed w-full">
-          <p>© 2025 My Sample Next-App</p>
+        <footer className="bg-gray-100">
+          <div className="container mx-auto px-4 py-6 text-center text-gray-600">
+            <p>© 2025 Next.js Blog Project. Built with Next.js and Tailwind CSS.</p>
+          </div>
         </footer>
       </body>
     </html>
