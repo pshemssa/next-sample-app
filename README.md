@@ -3,7 +3,7 @@
 A comprehensive Next.js application demonstrating various rendering techniques including CSR, SSR, SSG, and ISR with the App Router.
 
 ## 🚀 Deployed Link
-[Live Demo](https://your-deployment-url.vercel.app) - *Add your deployment URL here*
+https://github.com/pshemssa/next-sample-app/tree/master 
 
 ## 📋 Project Overview
 
@@ -18,12 +18,12 @@ This project showcases Next.js fundamentals including:
 
 ```
 src/app/
-├── layout.tsx          # Main layout with header/footer
-├── page.tsx           # Home page (CSR)
+├── layout.tsx 
+├── page.tsx        # Main layout with      # 
 ├── about/
 │   └── page.tsx       # About page (SSR)
 └── blog/
-    ├── layout.tsx     # Blog nested layout with sidebar
+    ├── layout.tsx     # Blog nested layout with \
     ├── page.tsx       # Blog listing (SSG)
     └── [id]/
         └── page.tsx   # Blog detail page (ISR)
@@ -69,7 +69,8 @@ src/app/
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/pshemssa/next-sample-app/
+
 cd next-sample-app
 ```
 
@@ -97,8 +98,7 @@ pnpm dev
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
-- `npm run start` - Start production server
-- `npm run lint` - Run ESLint
+
 
 ## 🌐 API Endpoints Used
 
@@ -154,10 +154,4 @@ Alternatively, you can deploy to other platforms that support Next.js.
 - [Tailwind CSS](https://tailwindcss.com/docs)
 - [TypeScript](https://www.typescriptlang.org/docs/)
 
-## 🤝 Contributing
 
-Feel free to submit issues and enhancement requests!
-
-## 📄 License
-
-This project is for educational purposes.
